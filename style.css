@@ -91,3 +91,12 @@ footer {
   transition: all 0.2s ease-in-out;
 }
 
+footer a {
+  color: #b35c00;        /* 連結變橘色 */
+  text-decoration: none; /* 取消底線 若保持底線:uderline*/
+}
+
+footer a:hover {
+  color:  #432403;    /* 滑鼠移上去變深色 */
+  text-decoration: underline; /* 加底線 */
+}
